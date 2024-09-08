@@ -1,5 +1,13 @@
 # liboqs-rust: Rust bindings for liboqs
 
+This fork of the liboqs-rust project is supplemental material for the paper [Agile, Post-quantum Secure Cryptography in Avionics](https://eprint.iacr.org/2024/667).
+
+See the [parent repository](https://github.com/rosenpass/paper-hpke-in-avionics-supplemental) to compile this or to reproduce the benchmarks.
+
+**Do NOT use this fork for anything other than testing**
+
+---
+
 [![Build status](https://github.com/open-quantum-safe/liboqs-rust/workflows/Continuous%20integration/badge.svg)](https://github.com/open-quantum-safe/liboqs-rust/actions?query=workflow%3A"Continuous+integration")
 
 | crate   | crates.io                                                                                  | docs.rs                                                                                           | License                                             |
