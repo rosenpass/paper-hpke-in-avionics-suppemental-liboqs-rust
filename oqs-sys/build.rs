@@ -64,6 +64,7 @@ fn build_from_source() -> PathBuf {
     } else {
         algorithm_feature!("KEM", "bike");
     }
+    algorithm_feature!("KEM", "ml_kem");
     algorithm_feature!("KEM", "classic_mceliece");
     algorithm_feature!("KEM", "frodokem");
     algorithm_feature!("KEM", "hqc");
@@ -71,6 +72,7 @@ fn build_from_source() -> PathBuf {
     algorithm_feature!("KEM", "ntruprime");
 
     // signature schemes
+    algorithm_feature!("SIG", "ml_dsa");
     algorithm_feature!("SIG", "dilithium");
     algorithm_feature!("SIG", "falcon");
     algorithm_feature!("SIG", "sphincs");
